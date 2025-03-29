@@ -1,0 +1,810 @@
+-------------------------MINIMAX-------------------------------------------
+
+-------------------1.1  sequence length 15, PLAYER, MINIMAX ---------------------------------   
+
+GAME 1 
+PLAYER: 9-9, 7-5, 1-4, 2-5, 3-2, 7-3, 1-1
+AI: 6-4, 7-3, 4-9, 1-3, 1-1, 3-1, 3-3
+   
+MI pārbaudīja 19045 virsotnes 0.031346 sekundēs.  AI WINS
+MI pārbaudīja 9031 virsotnes 0.014272 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005169 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001583 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000360 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000081 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000031 sekundēs.
+
+GAME2
+PLAYER: 9-4, 5-1, 1-3, 3-7, 3-1, 3-1, 3-7
+AI: 6-9, 8-7, 5-3, 1-3, 1-2, 4-3, 3-2
+
+MI pārbaudīja 19045 virsotnes 0.030770 sekundēs.  DRAW
+MI pārbaudīja 9031 virsotnes 0.014568 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005142 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001565 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000317 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000056 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000031 sekundēs.
+
+
+
+GAME3
+PLAYER: 2-4, 3-5, 4-1, 9-3, 3-3, 3-1, 3-1
+AI: 3-6, 7-8, 3-5, 1-1, 1-3, 1-3, 3-3
+
+MI pārbaudīja 19045 virsotnes 0.031285 sekundēs.  DRAW
+MI pārbaudīja 9031 virsotnes 0.013128 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005285 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.002301 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000302 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000080 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+
+GAME4
+PLAYER:
+AI:
+
+OTHER 5 GAMES
+
+MI pārbaudīja 19045 virsotnes 0.030976 sekundēs. AI
+MI pārbaudīja 9031 virsotnes 0.014248 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005385 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001547 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000315 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000060 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000033 sekundēs.
+
+MI pārbaudīja 19045 virsotnes 0.033554 sekundēs. DRAW
+MI pārbaudīja 9031 virsotnes 0.014196 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005190 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001577 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000558 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000069 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000024 sekundēs.
+
+MI pārbaudīja 19045 virsotnes 0.030314 sekundēs. AI
+MI pārbaudīja 9031 virsotnes 0.014213 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005537 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001565 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000357 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000068 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000023 sekundēs.
+
+MI pārbaudīja 19045 virsotnes 0.031166 sekundēs.  DRAW
+MI pārbaudīja 9031 virsotnes 0.013873 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005318 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001581 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000317 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000058 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000022 sekundēs.
+
+MI pārbaudīja 19045 virsotnes 0.030716 sekundēs. AI
+MI pārbaudīja 9031 virsotnes 0.013582 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005192 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001580 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000306 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000055 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+-------------------------------1.2 sequence length 25, PLAYER, MINIMAX -----------------------------
+
+GAME1
+PLAYER: 9-5, 4-5, 7-5, 7-6, 1-7, 2-2, 2-3, 1-3, 4-1, 1-1, 3-3, 3-3
+AI: 4-5, 6-9, 7-5, 2-5, 1-3, 1-2, 1-3, 3-3, 3-1, 3-2, 3-1, 3-1
+
+MI pārbaudīja 223675 virsotnes 0.451202 sekundēs.  PLAYER 
+MI pārbaudīja 152061 virsotnes 0.282231 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.181458 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.108151 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.058979 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.031198 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.013951 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005239 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001584 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000327 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000073 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000025 sekundēs.
+
+GAME2
+PLAYER: 9-2, 3-8, 7-5, 4-3, 5-2, 2-3, 3-1, 1-7, 1-1, 1-3, 1-1, 3-9
+AI: 8-8, 8-5, 4-7, 1-8, 1-5, 3-3, 3-7, 3-1, 3-1, 3-3, 3-3, 3-1
+
+MI pārbaudīja 223675 virsotnes 0.447058 sekundēs.  AI 
+MI pārbaudīja 152061 virsotnes 0.290488 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.183741 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.113389 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.057716 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.032166 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.014101 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005571 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001571 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000335 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000055 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000023 sekundēs.
+
+GAME3
+PLAYER:6-8. 3-5, 3-1, 3-3, 1-3, 1-3, 1-3, 3-2, 3-1, 3-1, 3-1, 1-6
+AI: 9-8, 9-8, 8-9, 6-5, 7-8, 1-7, 3-6, 3-1, 3-1, 3-1, 3-8, 2-1
+
+MI pārbaudīja 223675 virsotnes 0.438353 sekundēs.  AI 
+MI pārbaudīja 152061 virsotnes 0.301217 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.185382 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.116650 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.059970 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.030937 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.013844 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005591 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001575 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000337 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000064 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+OTHER 5 GAMES
+
+MI pārbaudīja 223675 virsotnes 0.444435 sekundēs.   DRAW
+MI pārbaudīja 152061 virsotnes 0.289584 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.185320 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.108063 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.060122 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.030272 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.013428 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005205 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001581 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000448 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000057 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000030 sekundēs.
+
+MI pārbaudīja 223675 virsotnes 0.452183 sekundēs.  DRAW
+MI pārbaudīja 152061 virsotnes 0.296574 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.179720 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.114220 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.063335 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.032566 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.014409 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005742 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001728 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000604 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000059 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000023 sekundēs.
+
+MI pārbaudīja 223675 virsotnes 0.446472 sekundēs.  AI
+MI pārbaudīja 152061 virsotnes 0.293434 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.181068 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.109383 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.060920 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.030826 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.014042 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005819 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001603 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000349 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000061 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000030 sekundēs.
+
+MI pārbaudīja 223675 virsotnes 0.436288 sekundēs.  AI
+MI pārbaudīja 152061 virsotnes 0.288167 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.181731 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.107525 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.059222 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.030855 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.013519 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005546 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001598 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000324 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000057 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000030 sekundēs.
+
+MI pārbaudīja 223675 virsotnes 0.445904 sekundēs.  AI
+MI pārbaudīja 152061 virsotnes 0.299111 sekundēs.
+MI pārbaudīja 99199 virsotnes 0.181658 sekundēs.
+MI pārbaudīja 61489 virsotnes 0.110519 sekundēs.
+MI pārbaudīja 35715 virsotnes 0.059688 sekundēs.
+MI pārbaudīja 19045 virsotnes 0.030773 sekundēs.
+MI pārbaudīja 9031 virsotnes 0.015177 sekundēs.
+MI pārbaudīja 3609 virsotnes 0.005374 sekundēs.
+MI pārbaudīja 1099 virsotnes 0.001799 sekundēs.
+MI pārbaudīja 205 virsotnes 0.000471 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000053 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000025 sekundēs.
+
+-------------------------------1.3 sequence length 15, AI, MINIMAX -----------------------------
+
+GAME1
+AI: 4-5, 9-9, 1-3, 1-3, 1-1, 3-1, 3-7
+PLAYER: 9-9, 9-8, 8-4, 4-3, 3-5, 3-2, 3-1
+
+MI pārbaudīja 26404 virsotnes 0.043453 sekundēs. AI
+MI pārbaudīja 13344 virsotnes 0.021169 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.009331 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003021 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000766 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000126 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000044 sekundēs.
+
+GAME2
+AI: 6-9, 8-5, 4-1, 3-1, 3-3, 3-1, 3-1
+PLAYER: 3-9,, 4-1, 7-4, 5-4, 3-3, 2-2, 3-3
+
+MI pārbaudīja 26404 virsotnes 0.043587 sekundēs. DRAW
+MI pārbaudīja 13344 virsotnes 0.021039 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008889 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002974 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000766 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000131 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000035 sekundēs.
+
+GAME3
+AI: 9-1, 8-5, 4-6, 7-3, 1-3, 1-8, 1-2
+PLAYER: 9-2, 1-2, 8-1, 1-5, 3-1, 3-4, 3-4  
+
+MI pārbaudīja 26404 virsotnes 0.043552 sekundēs.  AI
+MI pārbaudīja 13344 virsotnes 0.020816 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008803 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003047 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000749 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000127 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000038 sekundēs.
+
+OTHER 5 GAMES 
+
+MI pārbaudīja 26404 virsotnes 0.043481 sekundēs.  DRAW
+MI pārbaudīja 13344 virsotnes 0.021490 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008732 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003033 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000802 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000131 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000034 sekundēs.
+
+MI pārbaudīja 26404 virsotnes 0.043732 sekundēs.  AI
+MI pārbaudīja 13344 virsotnes 0.021546 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.009134 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002965 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000736 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000260 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000036 sekundēs.
+
+MI pārbaudīja 26404 virsotnes 0.043704 sekundēs.  AI
+MI pārbaudīja 13344 virsotnes 0.021510 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008903 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002998 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000765 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000127 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000036 sekundēs.
+
+MI pārbaudīja 26404 virsotnes 0.043830 sekundēs.  AI
+MI pārbaudīja 13344 virsotnes 0.021366 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.009010 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003075 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000750 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000127 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000046 sekundēs.
+
+MI pārbaudīja 26404 virsotnes 0.044958 sekundēs.  AI
+MI pārbaudīja 13344 virsotnes 0.023349 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008698 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002977 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000736 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000150 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000043 sekundēs.
+ 
+
+-------------------------------1.4 sequence length 25, AI, MINIMAX -----------------------------
+
+GAME1
+AI: 9-5, 6-5, 7-4, 3-7, 2-7, 1-1, 3-5, 1-1, 1-1, 1-3, 3-1, 3-1
+PLAYER: 9-8, 2-6, 2-7, 4-1, 9-3, 3-3, 1-3, 3-3, 3-6, 3-1, 3-3, 3-1
+ 
+MI pārbaudīja 267744 virsotnes 0.534708 sekundēs. DRAW
+MI pārbaudīja 185284 virsotnes 0.342689 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.237015 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.142293 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.080707 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.043548 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.021184 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008655 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003090 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000767 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000167 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000037 sekundēs.
+
+GAME2
+AI: 9-6, 7-4, 9-9, 4-4, 4-5, 3-2, 3-1, 3-3, 3-1, 3-1, 3-1, 3-3
+PLAYER: 7-9, 3-8, 9-8, 2-2, 1-3, 1-3, 1-1, 7-4, 3-3, 3-1, 1-4, 3-1
+
+MI pārbaudīja 267744 virsotnes 0.532967 sekundēs.  DRAW
+MI pārbaudīja 185284 virsotnes 0.355095 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.233637 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.145201 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.082394 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.043874 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.021022 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008772 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003123 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000875 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000187 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000032 sekundēs.
+
+GAME3
+AI: 9-3, 3-7, 4-9, 8-4, 3-5, 9-3, 1-7, 3-1, 3-3, 3-1, 1-1, 3-3
+PLAYER: 3-2, 4-7, 1-6, 4-1, 3-2, 4-1, 3-1, 3-1, 4-6, 3-3, 1-1, 3-3
+
+OTHER 5 GAMES
+
+MI pārbaudīja 267744 virsotnes 0.534404 sekundēs.  AI
+MI pārbaudīja 185284 virsotnes 0.357436 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.233222 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.143056 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.082968 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.044136 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.020853 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.009040 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003418 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000749 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000127 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000034 sekundēs.
+
+MI pārbaudīja 267744 virsotnes 0.542446 sekundēs.  DRAW
+MI pārbaudīja 185284 virsotnes 0.355233 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.232365 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.145114 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.084878 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.044190 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.020615 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008831 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003026 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000735 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000164 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000034 sekundēs.
+'
+MI pārbaudīja 267744 virsotnes 0.540858 sekundēs.  AI
+MI pārbaudīja 185284 virsotnes 0.359038 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.230155 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.143911 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.080425 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.043549 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.020811 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008729 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002971 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000747 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000127 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000038 sekundēs.
+
+MI pārbaudīja 267744 virsotnes 0.531487 sekundēs.  AI
+MI pārbaudīja 185284 virsotnes 0.356583 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.230262 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.141345 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.081665 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.043138 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.021154 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008661 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002983 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000753 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000182 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000042 sekundēs.
+
+MI pārbaudīja 267744 virsotnes 0.538031 sekundēs.  AI
+MI pārbaudīja 185284 virsotnes 0.361348 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.230057 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.138696 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.080169 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.043442 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.020846 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.009073 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.002978 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000742 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000132 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000045 sekundēs.
+
+MI pārbaudīja 267744 virsotnes 0.535402 sekundēs.  AI
+MI pārbaudīja 185284 virsotnes 0.363052 sekundēs.
+MI pārbaudīja 123520 virsotnes 0.234297 sekundēs.
+MI pārbaudīja 78660 virsotnes 0.142464 sekundēs.
+MI pārbaudīja 47296 virsotnes 0.082240 sekundēs.
+MI pārbaudīja 26404 virsotnes 0.045494 sekundēs.
+MI pārbaudīja 13344 virsotnes 0.020539 sekundēs.
+MI pārbaudīja 5860 virsotnes 0.008762 sekundēs.
+MI pārbaudīja 2080 virsotnes 0.003184 sekundēs.
+MI pārbaudīja 516 virsotnes 0.000954 sekundēs.
+MI pārbaudīja 64 virsotnes 0.000169 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000033 sekundēs.
+
+
+-------------------------------2.1 sequence length 15, PLAYER, ALFA-BETA -----------------------------
+GAME1
+PLAYER: 8-9, 1-8, 1-4, 1-3, 4-7, 3-4, 1-3
+AI: 4-5, 7-7, 1-9, 5-3, 1-1, 2-2, 3-3
+
+MI pārbaudīja 4081 virsotnes 0.006949 sekundēs.  AI 
+MI pārbaudīja 2732 virsotnes 0.005618 sekundēs.
+MI pārbaudīja 1183 virsotnes 0.002131 sekundēs.
+MI pārbaudīja 568 virsotnes 0.000899 sekundēs.
+MI pārbaudīja 146 virsotnes 0.000270 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000074 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000028 sekundēs.
+
+GAME2
+PLAYER: 8-8, 4-6, 8-8, 4-9, 1-6, 2-1, 3-3
+AI: 7-3, 9-1, 1-7, 1-1, 1-9, 1-3, 3-4
+
+MI pārbaudīja 6016 virsotnes 0.010664 sekundēs.  DRAW
+MI pārbaudīja 3923 virsotnes 0.006543 sekundēs.
+MI pārbaudīja 1520 virsotnes 0.002427 sekundēs.
+MI pārbaudīja 579 virsotnes 0.000993 sekundēs.
+MI pārbaudīja 178 virsotnes 0.000364 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000059 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000025 sekundēs.
+
+GAME3
+PLAYER: 3-2, 9-1, 3-4, 2-3, 6-1, 3-2, 3-5  
+AI: 3-6, 5-9, 1-9, 2-3, 1-1, 3-3, 1-9
+
+MI pārbaudīja 5813 virsotnes 0.009445 sekundēs.  AI
+MI pārbaudīja 2706 virsotnes 0.004792 sekundēs.
+MI pārbaudīja 1343 virsotnes 0.001998 sekundēs.
+MI pārbaudīja 627 virsotnes 0.001025 sekundēs.
+MI pārbaudīja 135 virsotnes 0.000264 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000063 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+OTHER 5 GAMES
+
+MI pārbaudīja 4097 virsotnes 0.007142 sekundēs.  DRAW
+MI pārbaudīja 2414 virsotnes 0.004658 sekundēs.
+MI pārbaudīja 1309 virsotnes 0.002138 sekundēs.
+MI pārbaudīja 528 virsotnes 0.000941 sekundēs.
+MI pārbaudīja 115 virsotnes 0.000215 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000060 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+MI pārbaudīja 4892 virsotnes 0.021877 sekundēs.  DRAW
+MI pārbaudīja 2638 virsotnes 0.011026 sekundēs.
+MI pārbaudīja 1656 virsotnes 0.006534 sekundēs.
+MI pārbaudīja 573 virsotnes 0.002113 sekundēs.
+MI pārbaudīja 134 virsotnes 0.000466 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000090 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000023 sekundēs.
+
+MI pārbaudīja 4397 virsotnes 0.009092 sekundēs.  DRAW
+MI pārbaudīja 2853 virsotnes 0.006044 sekundēs.
+MI pārbaudīja 1210 virsotnes 0.002496 sekundēs.
+MI pārbaudīja 525 virsotnes 0.001218 sekundēs.
+MI pārbaudīja 142 virsotnes 0.000404 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000114 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000027 sekundēs.
+
+MI pārbaudīja 4798 virsotnes 0.010658 sekundēs.  DRAW
+MI pārbaudīja 2838 virsotnes 0.005909 sekundēs.
+MI pārbaudīja 1348 virsotnes 0.002962 sekundēs.
+MI pārbaudīja 662 virsotnes 0.001699 sekundēs.
+MI pārbaudīja 134 virsotnes 0.000442 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000135 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000040 sekundēs.
+
+MI pārbaudīja 5442 virsotnes 0.009125 sekundēs.  AI
+MI pārbaudīja 2898 virsotnes 0.004778 sekundēs.
+MI pārbaudīja 1411 virsotnes 0.002221 sekundēs.
+MI pārbaudīja 470 virsotnes 0.000789 sekundēs.
+MI pārbaudīja 138 virsotnes 0.000255 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000076 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000024 sekundēs.
+
+-------------------------------2.2 sequence length 25, PLAYER, ALFA-BETA -----------------------------
+
+GAME1
+PLAYER: 5-3, 2-7, 5-2, 6-2, 2-1, 1-3, 3-1, 1-6, 3-1, 1-8, 1-9, 2-1
+AI: 3-6, 7-3, 5-5, 5-9, 9-1, 5-1, 3-1, 3-1, 3-1, 3-3, 3-1, 3-3
+
+MI pārbaudīja 29518 virsotnes 0.061871 sekundēs.  AI
+MI pārbaudīja 22997 virsotnes 0.044809 sekundēs.
+MI pārbaudīja 18423 virsotnes 0.034967 sekundēs.
+MI pārbaudīja 11845 virsotnes 0.022156 sekundēs.
+MI pārbaudīja 8251 virsotnes 0.014655 sekundēs.
+MI pārbaudīja 5585 virsotnes 0.009299 sekundēs.
+MI pārbaudīja 2919 virsotnes 0.004884 sekundēs.
+MI pārbaudīja 1396 virsotnes 0.002259 sekundēs.
+MI pārbaudīja 508 virsotnes 0.000802 sekundēs.
+MI pārbaudīja 120 virsotnes 0.000226 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000059 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+GAME2
+PLAYER: 9-9, 5-7, 8-6, 7-1, 8-1, 1-7, 2-1, 4-3, 1-6, 3-2, 1-1, 3-2
+AI: 7-6, 5-8, 4-7, 4-2, 1-9, 1-3, 3-1, 3-4, 2-1, 3-1, 3-3, 3-1
+
+MI pārbaudīja 36235 virsotnes 0.071929 sekundēs.  AI
+MI pārbaudīja 26884 virsotnes 0.052350 sekundēs.
+MI pārbaudīja 21193 virsotnes 0.041268 sekundēs.
+MI pārbaudīja 12858 virsotnes 0.023655 sekundēs.
+MI pārbaudīja 6911 virsotnes 0.012762 sekundēs.
+MI pārbaudīja 3557 virsotnes 0.005815 sekundēs.
+MI pārbaudīja 2077 virsotnes 0.003368 sekundēs.
+MI pārbaudīja 981 virsotnes 0.001609 sekundēs.
+MI pārbaudīja 437 virsotnes 0.000764 sekundēs.
+MI pārbaudīja 149 virsotnes 0.000267 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000057 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000024 sekundēs.
+
+GAME3
+PLAYER:8-7, 6-5, 6-6, 4-1, 1-4, 5-2, 3-3, 1-1, 3-1, 3-2, 2-2, 3-3
+AI:4-7, 5-7, 5-5, 3-6, 7-3, 1-3, 1-3, 1-3, 3-3, 3-1, 3-2, 3-8
+
+MI pārbaudīja 44503 virsotnes 0.091565 sekundēs.  AI
+MI pārbaudīja 23213 virsotnes 0.043373 sekundēs.
+MI pārbaudīja 14691 virsotnes 0.027959 sekundēs.
+MI pārbaudīja 11484 virsotnes 0.021298 sekundēs.
+MI pārbaudīja 9393 virsotnes 0.016867 sekundēs.
+MI pārbaudīja 4731 virsotnes 0.007814 sekundēs.
+MI pārbaudīja 2475 virsotnes 0.004433 sekundēs.
+MI pārbaudīja 1324 virsotnes 0.002138 sekundēs.
+MI pārbaudīja 491 virsotnes 0.000772 sekundēs.
+MI pārbaudīja 120 virsotnes 0.000220 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000067 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000030 sekundēs.
+
+OTHER 5 GAMES
+
+MI pārbaudīja 33201 virsotnes 0.069892 sekundēs.  AI
+MI pārbaudīja 17008 virsotnes 0.035251 sekundēs.
+MI pārbaudīja 12927 virsotnes 0.024381 sekundēs.
+MI pārbaudīja 9807 virsotnes 0.017739 sekundēs.
+MI pārbaudīja 6113 virsotnes 0.010886 sekundēs.
+MI pārbaudīja 5566 virsotnes 0.009358 sekundēs.
+MI pārbaudīja 2941 virsotnes 0.004775 sekundēs.
+MI pārbaudīja 1240 virsotnes 0.002132 sekundēs.
+MI pārbaudīja 530 virsotnes 0.000846 sekundēs.
+MI pārbaudīja 187 virsotnes 0.000474 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000062 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000032 sekundēs.
+
+MI pārbaudīja 33324 virsotnes 0.068042 sekundēs.  DRAW
+MI pārbaudīja 21650 virsotnes 0.045227 sekundēs.
+MI pārbaudīja 11352 virsotnes 0.021518 sekundēs.
+MI pārbaudīja 9046 virsotnes 0.016200 sekundēs.
+MI pārbaudīja 6311 virsotnes 0.011222 sekundēs.
+MI pārbaudīja 5268 virsotnes 0.008690 sekundēs.
+MI pārbaudīja 3116 virsotnes 0.005173 sekundēs.
+MI pārbaudīja 1455 virsotnes 0.002192 sekundēs.
+MI pārbaudīja 488 virsotnes 0.000823 sekundēs.
+MI pārbaudīja 149 virsotnes 0.000308 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000056 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000026 sekundēs.
+
+MI pārbaudīja 51582 virsotnes 0.106760 sekundēs.  AI
+MI pārbaudīja 26108 virsotnes 0.053164 sekundēs.
+MI pārbaudīja 12072 virsotnes 0.023196 sekundēs.
+MI pārbaudīja 8506 virsotnes 0.015646 sekundēs.
+MI pārbaudīja 6958 virsotnes 0.012726 sekundēs.
+MI pārbaudīja 3582 virsotnes 0.005899 sekundēs.
+MI pārbaudīja 2100 virsotnes 0.003397 sekundēs.
+MI pārbaudīja 1189 virsotnes 0.001894 sekundēs.
+MI pārbaudīja 417 virsotnes 0.000723 sekundēs.
+MI pārbaudīja 149 virsotnes 0.000298 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000091 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000031 sekundēs.
+
+MI pārbaudīja 27499 virsotnes 0.057462 sekundēs.  AI
+MI pārbaudīja 13336 virsotnes 0.026461 sekundēs.
+MI pārbaudīja 12058 virsotnes 0.023948 sekundēs.
+MI pārbaudīja 11566 virsotnes 0.021948 sekundēs.
+MI pārbaudīja 8125 virsotnes 0.014182 sekundēs.
+MI pārbaudīja 9340 virsotnes 0.016737 sekundēs.
+MI pārbaudīja 2126 virsotnes 0.003551 sekundēs.
+MI pārbaudīja 1061 virsotnes 0.001701 sekundēs.
+MI pārbaudīja 489 virsotnes 0.000801 sekundēs.
+MI pārbaudīja 149 virsotnes 0.000279 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000056 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000031 sekundēs.
+
+MI pārbaudīja 45965 virsotnes 0.100403 sekundēs.  AI
+MI pārbaudīja 21182 virsotnes 0.052702 sekundēs.
+MI pārbaudīja 14005 virsotnes 0.027483 sekundēs.
+MI pārbaudīja 10021 virsotnes 0.019105 sekundēs.
+MI pārbaudīja 6669 virsotnes 0.012041 sekundēs.
+MI pārbaudīja 2863 virsotnes 0.005269 sekundēs.
+MI pārbaudīja 2100 virsotnes 0.003356 sekundēs.
+MI pārbaudīja 1144 virsotnes 0.001918 sekundēs.
+MI pārbaudīja 509 virsotnes 0.000817 sekundēs.
+MI pārbaudīja 149 virsotnes 0.000399 sekundēs.
+MI pārbaudīja 15 virsotnes 0.000058 sekundēs.
+MI pārbaudīja 1 virsotnes 0.000024 sekundēs.
+
+-------------------------------2.3 sequence length 15, AI, ALFA-BETA -----------------------------
+
+GAME1
+AI: 8-8, 6-4, 1-4, 2-1, 3-1, 1-3, 3-1, 3-1
+PLAYER: 6-9, 1-7, 5-2, 3-3, 3-8, 3-2
+
+MI pārbaudīja 5460 virsotnes 0.009648 sekundēs.  AI
+MI pārbaudīja 3876 virsotnes 0.006554 sekundēs.
+MI pārbaudīja 1814 virsotnes 0.003200 sekundēs.
+MI pārbaudīja 877 virsotnes 0.001546 sekundēs.
+MI pārbaudīja 286 virsotnes 0.000536 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000123 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000051 sekundēs.
+
+GAME2
+AI: 7-3, 4-8, 3-1, 3-2, 3-1, 3-3, 3-3
+PLAYER: 4-8, 1-9, 4-3, 3-1, 3-1, 3-1, 3-2
+
+MI pārbaudīja 6583 virsotnes 0.012067 sekundēs.  AI
+MI pārbaudīja 3117 virsotnes 0.005772 sekundēs.
+MI pārbaudīja 1361 virsotnes 0.002052 sekundēs.
+MI pārbaudīja 756 virsotnes 0.001343 sekundēs.
+MI pārbaudīja 276 virsotnes 0.000471 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000122 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000035 sekundēs.
+
+GAME3
+AI: 8-3, 7-5, 2-1, 3-1, 1-3, 3-1, 3-1
+PLAYER: 9-9, 5-6, 3-5, 2-2, 1-3, 3-3, 3-3
+
+OTHER 5 GAMES 
+
+MI pārbaudīja 5513 virsotnes 0.009626 sekundēs.  DRAW
+MI pārbaudīja 3366 virsotnes 0.006355 sekundēs.
+MI pārbaudīja 1844 virsotnes 0.002961 sekundēs.
+MI pārbaudīja 649 virsotnes 0.001070 sekundēs.
+MI pārbaudīja 234 virsotnes 0.000438 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000114 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000035 sekundēs.
+
+MI pārbaudīja 7063 virsotnes 0.013380 sekundēs.  AI
+MI pārbaudīja 3720 virsotnes 0.006580 sekundēs.
+MI pārbaudīja 2286 virsotnes 0.003928 sekundēs.
+MI pārbaudīja 796 virsotnes 0.001248 sekundēs.
+MI pārbaudīja 246 virsotnes 0.000487 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000150 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000049 sekundēs.
+
+MI pārbaudīja 7021 virsotnes 0.013157 sekundēs.  AI
+MI pārbaudīja 4062 virsotnes 0.006345 sekundēs.
+MI pārbaudīja 1864 virsotnes 0.003203 sekundēs.
+MI pārbaudīja 771 virsotnes 0.001265 sekundēs.
+MI pārbaudīja 246 virsotnes 0.000439 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000177 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000040 sekundēs.
+
+MI pārbaudīja 6539 virsotnes 0.017429 sekundēs.  DRAW
+MI pārbaudīja 4384 virsotnes 0.008659 sekundēs.
+MI pārbaudīja 2313 virsotnes 0.004030 sekundēs.
+MI pārbaudīja 1028 virsotnes 0.001644 sekundēs.
+MI pārbaudīja 347 virsotnes 0.000545 sekundēs.
+MI pārbaudīja 58 virsotnes 0.000148 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000044 sekundēs.
+
+MI pārbaudīja 6640 virsotnes 0.011532 sekundēs.  AI
+MI pārbaudīja 3907 virsotnes 0.008043 sekundēs.
+MI pārbaudīja 2021 virsotnes 0.003719 sekundēs.
+MI pārbaudīja 628 virsotnes 0.000986 sekundēs.
+MI pārbaudīja 237 virsotnes 0.000384 sekundēs.
+MI pārbaudīja 52 virsotnes 0.000235 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000038 sekundēs.
+
+MI pārbaudīja 4953 virsotnes 0.008610 sekundēs.  AI
+MI pārbaudīja 2623 virsotnes 0.004434 sekundēs.
+MI pārbaudīja 1399 virsotnes 0.002316 sekundēs.
+MI pārbaudīja 697 virsotnes 0.001221 sekundēs.
+MI pārbaudīja 286 virsotnes 0.000463 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000236 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000049 sekundēs.
+
+-------------------------------2.4 sequence length 25, AI, ALFA-BETA -----------------------------
+
+GAME1
+AI: 4-8, 4-8, 6-9, 3-3, 3-3, 1-3, 1-3, 3-1, 1-1, 3-3, 3-3, 3-3
+PLAYER: 3-9, 4-7, 2-9, 3-3, 3-3, 1-1, 2-6, 3-6, 3-2, 1-1, 1-1, 3-3
+
+MI pārbaudīja 45739 virsotnes 0.097978 sekundēs.  DRAW
+MI pārbaudīja 18948 virsotnes 0.037352 sekundēs.
+MI pārbaudīja 14262 virsotnes 0.026526 sekundēs.
+MI pārbaudīja 12942 virsotnes 0.025628 sekundēs.
+MI pārbaudīja 10448 virsotnes 0.018997 sekundēs.
+MI pārbaudīja 7203 virsotnes 0.013332 sekundēs.
+MI pārbaudīja 3984 virsotnes 0.006789 sekundēs.
+MI pārbaudīja 1938 virsotnes 0.003310 sekundēs.
+MI pārbaudīja 757 virsotnes 0.001210 sekundēs.
+MI pārbaudīja 286 virsotnes 0.000483 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000131 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000043 sekundēs.
+
+GAME2
+AI: 3-5, 3-6, 7-7, 3-3, 3-8, 8-5, 1-1, 3-1, 1-3, 3-3, 3-2, 1-4
+PLAYER: 8-3, 6-4, 3-4, 3-2, 2-1, 6-1, 5-2, 1-1, 3-2, 4-3, 3-2, 3-3
+
+MI pārbaudīja 35967 virsotnes 0.078649 sekundēs.  AI
+MI pārbaudīja 27642 virsotnes 0.056405 sekundēs.
+MI pārbaudīja 27642 virsotnes 0.053635 sekundēs.
+MI pārbaudīja 21710 virsotnes 0.041755 sekundēs.
+MI pārbaudīja 11133 virsotnes 0.020119 sekundēs.
+MI pārbaudīja 9374 virsotnes 0.016081 sekundēs.
+MI pārbaudīja 4597 virsotnes 0.007872 sekundēs.
+MI pārbaudīja 1413 virsotnes 0.002495 sekundēs.
+MI pārbaudīja 776 virsotnes 0.001208 sekundēs.
+MI pārbaudīja 270 virsotnes 0.000432 sekundēs.
+MI pārbaudīja 52 virsotnes 0.000129 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000036 sekundēs.
+
+GAME3
+AI: 3-6, 8-6, 8-3, 8-3, 1-9, 1-1, 1-2, 3-8, 2-1, 1-3, 3-3, 3-3
+PLAYER: 5-1, 6-2, 5-7, 3-4, 5-2, 3-1, 3-4, 2-2, 1-1, 3-1, 3-3, 3-2
+
+MI pārbaudīja 55661 virsotnes 0.118515 sekundēs.  AI
+MI pārbaudīja 38477 virsotnes 0.075537 sekundēs.
+MI pārbaudīja 25900 virsotnes 0.056637 sekundēs.
+MI pārbaudīja 17747 virsotnes 0.034975 sekundēs.
+MI pārbaudīja 10563 virsotnes 0.017917 sekundēs.
+MI pārbaudīja 5396 virsotnes 0.010219 sekundēs.
+MI pārbaudīja 4976 virsotnes 0.007999 sekundēs.
+MI pārbaudīja 1530 virsotnes 0.002406 sekundēs.
+MI pārbaudīja 682 virsotnes 0.001034 sekundēs.
+MI pārbaudīja 220 virsotnes 0.000376 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000110 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000050 sekundēs.
+
+OTHER 5 GAMES
+
+MI pārbaudīja 50303 virsotnes 0.105205 sekundēs.  AI
+MI pārbaudīja 19030 virsotnes 0.039694 sekundēs.
+MI pārbaudīja 14089 virsotnes 0.027487 sekundēs.
+MI pārbaudīja 11155 virsotnes 0.021199 sekundēs.
+MI pārbaudīja 6726 virsotnes 0.012140 sekundēs.
+MI pārbaudīja 4023 virsotnes 0.006411 sekundēs.
+MI pārbaudīja 2765 virsotnes 0.004587 sekundēs.
+MI pārbaudīja 1640 virsotnes 0.003166 sekundēs.
+MI pārbaudīja 824 virsotnes 0.001329 sekundēs.
+MI pārbaudīja 284 virsotnes 0.000678 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000110 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000036 sekundēs.
+
+MI pārbaudīja 39313 virsotnes 0.084472 sekundēs.  AI
+MI pārbaudīja 34815 virsotnes 0.071312 sekundēs.
+MI pārbaudīja 30618 virsotnes 0.059580 sekundēs.
+MI pārbaudīja 16306 virsotnes 0.028620 sekundēs.
+MI pārbaudīja 10369 virsotnes 0.018580 sekundēs.
+MI pārbaudīja 5791 virsotnes 0.009943 sekundēs.
+MI pārbaudīja 3519 virsotnes 0.006033 sekundēs.
+MI pārbaudīja 2122 virsotnes 0.003390 sekundēs.
+MI pārbaudīja 682 virsotnes 0.001106 sekundēs.
+MI pārbaudīja 220 virsotnes 0.000383 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000169 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000049 sekundēs.
+
+MI pārbaudīja 33882 virsotnes 0.073992 sekundēs.  AI
+MI pārbaudīja 18496 virsotnes 0.036160 sekundēs.
+MI pārbaudīja 14190 virsotnes 0.027006 sekundēs.
+MI pārbaudīja 12959 virsotnes 0.025578 sekundēs.
+MI pārbaudīja 8236 virsotnes 0.014986 sekundēs.
+MI pārbaudīja 6696 virsotnes 0.011822 sekundēs.
+MI pārbaudīja 3576 virsotnes 0.006145 sekundēs.
+MI pārbaudīja 1558 virsotnes 0.002639 sekundēs.
+MI pārbaudīja 692 virsotnes 0.001201 sekundēs.
+MI pārbaudīja 264 virsotnes 0.000565 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000141 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000050 sekundēs.
+
+MI pārbaudīja 26846 virsotnes 0.057923 sekundēs.  AI
+MI pārbaudīja 20766 virsotnes 0.041852 sekundēs.
+MI pārbaudīja 15270 virsotnes 0.030800 sekundēs.
+MI pārbaudīja 14174 virsotnes 0.026963 sekundēs.
+MI pārbaudīja 10453 virsotnes 0.019163 sekundēs.
+MI pārbaudīja 6539 virsotnes 0.011315 sekundēs.
+MI pārbaudīja 3881 virsotnes 0.008015 sekundēs.
+MI pārbaudīja 1961 virsotnes 0.003697 sekundēs.
+MI pārbaudīja 742 virsotnes 0.001142 sekundēs.
+MI pārbaudīja 238 virsotnes 0.000442 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000147 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000049 sekundēs.
+
+MI pārbaudīja 42762 virsotnes 0.084037 sekundēs.  AI
+MI pārbaudīja 26216 virsotnes 0.054774 sekundēs.
+MI pārbaudīja 21035 virsotnes 0.042627 sekundēs.
+MI pārbaudīja 15633 virsotnes 0.029355 sekundēs.
+MI pārbaudīja 13167 virsotnes 0.023673 sekundēs.
+MI pārbaudīja 5082 virsotnes 0.008984 sekundēs.
+MI pārbaudīja 2346 virsotnes 0.006504 sekundēs.
+MI pārbaudīja 1473 virsotnes 0.003360 sekundēs.
+MI pārbaudīja 912 virsotnes 0.001301 sekundēs.
+MI pārbaudīja 288 virsotnes 0.000724 sekundēs.
+MI pārbaudīja 48 virsotnes 0.000115 sekundēs.
+MI pārbaudīja 4 virsotnes 0.000044 sekundēs.
+
